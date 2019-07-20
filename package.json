@@ -17,7 +17,8 @@
     "mocha": "^6.1.4"
   },
   "scripts": {
-    "test:ddl": "mocha --exit test/data_definition_language.spec.js"
+    "test:ddl": "mocha --exit test/data_definition_language.spec.js",
+    "test:insert": "mocha --exit test/insertions.spec.js"
   },
   "keywords": [],
   "author": "",
