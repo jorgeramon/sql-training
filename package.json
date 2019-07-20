@@ -1,0 +1,25 @@
+{
+  "name": "sql-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "csv-parser": "^2.3.0",
+    "dotenv": "^8.0.0",
+    "mysql2": "^1.6.5",
+    "random-data-provider": "^0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test:ddl": "mocha --exit test/data_definition_language.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
